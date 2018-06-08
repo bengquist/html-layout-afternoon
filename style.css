@@ -1,0 +1,107 @@
+body {
+  background: #009;
+  color: #fff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-item {
+  margin: 40px 60px;
+  font: 1.5em sans-serif;
+}
+
+.logo-item:hover {
+  cursor: pointer;
+}
+
+.logo-item i {
+  padding-right: 10px;
+}
+
+.subscribe-button {
+  margin: 40px 60px;
+  font: 1em sans-serif;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: #009;
+  color: #fff;
+}
+
+.subscribe-button p {
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.subscribe-button:hover {
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  width: 40%;
+}
+
+.items div {
+  letter-spacing: 2px;
+}
+
+.items:hover {
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 3em;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.heading p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  background: #007;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  word-wrap: normal;
+  text-align: center;
+}
+
+.text p {
+  margin-top: 0;
+  width: 40%;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+}
+
+.explore button {
+  margin: 20px 60px;
+  font: 1em sans-serif;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #009;
+}
+
+.explore button p {
+  padding: 6px 20px;
+  font-size: 12px;
+}
